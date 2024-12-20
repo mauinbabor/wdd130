@@ -123,4 +123,57 @@ header {
     width: 24px;
     height: 24px;
   }
+  .contact-info {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  .contact-info h2 {
+    font-size: 1.8em;
+  }
+  .contact-info p {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  .team {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  .team figure {
+    text-align: center;
+  }
+  .team img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .team figcaption {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  .contact-form {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  .contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  .contact-form button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .contact-form button:hover {
+    background-color: #005fa3;
+  }
+      
         
